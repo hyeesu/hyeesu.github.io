@@ -22,9 +22,9 @@
     --nav_font: #7d7d7d; //8d7edc
     --nav_font_hover: #484848; //909090
     --shadow_color: rgba(160, 160, 160, 0.05);
-    --post_title: #003845;
-    --post_date: #003845;
-    --post_text: #4c4c4c;
+    --post_title: #484848; //003845
+    --post_date: #7d7d7d; //003845
+    --post_text: #7d7d7d; //4c4c4c
     --post_h3: #4c4c4c;
     --post_link: #46a891;
     --post_link_hover: #87CDBD;
@@ -167,6 +167,7 @@ img {
 
     @include breakpoint(medium) {
         margin-left: 22rem;
+
     }
 }
 
@@ -517,7 +518,7 @@ img {
 
     @include breakpoint(medium) {
         max-width: 33rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     @include mobile-only {
