@@ -15,12 +15,12 @@
     --header_bg: #fafafa;
     --content_bg: #fff;
     --archive_font: #000;
-    --archive_title: #46a891;
-    --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
+    --archive_title: #7d7d7d; //46a891
+    --archive_title_hover: #484848; //87CDBD
+    --name_font: #484848; //FFAA00
     --job_font: #003845;
-    --nav_font: #8d7edc;
-    --nav_font_hover: #D4CEF2;
+    --nav_font: #7d7d7d; //8d7edc
+    --nav_font_hover: #484848; //909090
     --shadow_color: rgba(160, 160, 160, 0.05);
     --post_title: #003845;
     --post_date: #003845;
@@ -120,6 +120,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    font-weight: 600;
 
     @include breakpoint(medium) {
         zoom: 1;
@@ -150,7 +151,7 @@ img {
     @include breakpoint(medium) {
         margin-left: auto;
         margin-right: auto;
-        max-width: 960px;
+        max-width: 1200px;
         padding-top: 2.5rem;
     }
 
@@ -172,7 +173,8 @@ img {
 .aboutme {
     @include breakpoint(medium) {
         max-width: 30rem;
-        margin-top: 5.5rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
 
         img {
             float: none;
@@ -243,7 +245,8 @@ img {
 
     @include breakpoint(medium) {
         max-width: 30rem;
-        margin-top: 5rem;
+        margin-top: 1.5rem; //5
+        margin-left: 1rem;
     }
 
     @include mobile-only {
@@ -254,7 +257,8 @@ img {
 }
 
 .archive_date {
-    text-transform: uppercase;
+    text-transform: lowercase; //uppercase
+    font-style: italic;
 
     @include breakpoint(medium) {
         float: right;
@@ -298,7 +302,7 @@ img {
     }
 
     @include breakpoint(medium) {
-        width: 18rem;
+        width: 19rem; //18
         height: 100%;
         min-height: 100%;
     }
@@ -310,7 +314,7 @@ img {
     text-align: center;
 
     @include breakpoint(medium) {
-        margin-top: 8rem;
+        margin-top: 4rem; /* 8 */
         width: 100%;
     }
 
@@ -328,7 +332,12 @@ img {
     border-radius: 50%;
 
     img {
-        @extend .header_circle;
+        //@extend .header_circle;
+        border: none;
+        box-sizing: border-box;
+        height: 10rem; //10
+        width: 14rem; //10
+        border-radius: 5%;       
     }
 
     &:hover {
@@ -348,6 +357,9 @@ img {
     display: block;
     color: var(--name_font);
     font-size: 1.5em;
+    line-height: 2;
+    font-weight: 700;
+    font-style: italic;    
 }
 
 .header_job {
