@@ -138,6 +138,12 @@ img {
     margin-right: auto;
 }
 
+.postImg{
+    border: 2px solid #b9b9b97d;
+    width: 75%;
+    margin: 10px 0 10px 0;
+}
+
 .content {
     margin: 1.4em auto;
     z-index: 0;
@@ -517,7 +523,7 @@ img {
     color: var(--post_text);
 
     @include breakpoint(medium) {
-        max-width: 33rem;
+        max-width: 40rem; //33rem
         margin-top: 2rem;
     }
 
