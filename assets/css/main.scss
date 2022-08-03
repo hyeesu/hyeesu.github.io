@@ -523,7 +523,7 @@ img {
     color: var(--post_text);
 
     @include breakpoint(medium) {
-        max-width: 40rem; //33rem
+        max-width: 40rem; //33rem 
         margin-top: 2rem;
     }
 
