@@ -44,6 +44,6 @@ markdown: kramdown
 
 # Filtering Content
 show_drafts: null
-limit_posts: 0
+limit_posts: 10
 future:      false
 unpublished: false
