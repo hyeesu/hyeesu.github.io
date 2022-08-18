@@ -85,7 +85,7 @@ comments: true
                 <th>ex) 임베디드 시스템 (내장형 시스템, 내부에 탑재된 컴퓨터)</th>
             </tr>                                                       
             <tr>
-                <th rowspan="3">변환형 시스템<br>(transformational)</th>
+                <th rowspan="4">변환형 시스템<br>(transformational)</th>
                 <th>데이터가 입력되면 정해진 작업들을 수행하여 결과를 출력하는 시스템<br>(입력을 출력으로 변환)</th>
             </tr>  
             <tr>
@@ -93,7 +93,10 @@ comments: true
             </tr>                     
             <tr>
                 <th>엔지니어링 분야와 데이터 마이닝과 같은 비즈니스 어플리케이션에서 많이 쓰임</th>
-            </tr>                                 
+            </tr>   
+            <tr>
+                <th>ex) 컴파일러 (원시코드를 실행코드로 변환)</th>
+            </tr>                                           
             <tr>
                 <th rowspan="3">객체 영속형 시스템<br>(object-persistence)</th>
                 <th>데이터 베이스를 사용하여 파일을 효과적으로 저장, 검색, 갱신할 수 있는 시스템<br>(데이터베이스 시스템)</th>
