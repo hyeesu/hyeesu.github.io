@@ -21,8 +21,8 @@ cusdis:
 
 user:
   name: kimhyesu
-  pic: /assets/img/img03.jpeg
-  picAlt: "catbook"
+  pic: /assets/img/profile/1.jpeg
+  picAlt: ""
   job: 
   aboutme: true # comment this out if you don't need the 'about' page.
 

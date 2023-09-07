@@ -11,7 +11,7 @@
    ========================================================================== */
 
 @mixin lightMode {
-    --bg_color: #eee;
+    --bg_color: #5a775f;
     --header_bg: #fafafa;
     --content_bg: #fff;
     --archive_font: #000;
@@ -296,7 +296,7 @@ img {
    ========================================================================== */
 
 .header {
-    background-color: var(--header_bg);
+    // background-color: var(--header_bg);
     z-index: 1;
     position: absolute;
     top: 0;
@@ -305,7 +305,7 @@ img {
 
     @include mobile-only {
         width: 100%;
-        height: 9rem;
+        height: 17rem;
     }
 
     @include breakpoint(medium) {
