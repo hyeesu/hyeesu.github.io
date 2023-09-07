@@ -30,8 +30,8 @@
     --post_link_hover: #87CDBD;
     --inlinecode_text: #FFAA00;
     --blockquote: #333;
-    --footer_font: #858585;
-    --footer_font_a: #000;
+    --footer_font: #e4e4e4;
+    --footer_font_a: #e4e4e4;
     --border_radius: 15px;
 
 }
@@ -187,7 +187,12 @@ img {
             float: none;
         }
     }
+
+    .post_content{
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
     }
+}
 
     @include mobile-only {
         margin-top: 2rem;
