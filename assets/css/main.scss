@@ -14,7 +14,7 @@
     --bg_color: #5a775f;
     --header_bg: #fafafa;
     --content_bg: #fff;
-    --archive_font: #000;
+    --archive_font: #484848;
     --archive_title: #7d7d7d; //46a891
     --archive_title_hover: #484848; //87CDBD
     --name_font: #484848; //FFAA00
@@ -582,7 +582,7 @@ img {
 }
 
 .post_content {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     line-height: 1.5rem;
     color: var(--post_text);
 
