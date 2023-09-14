@@ -9,7 +9,7 @@ comments: true
 그럴 때마다 이해 못하는 내 자신이 너무 화가 나서 적어본다...ㅎㅎ<br>
 <br>
 
-🤔 <strong>architecture란?</strong>
+<h2><strong>architecture란?</strong></h2>
 <br>
 1. 시스템 구성 및 동작 원리를 나타낸다.
 <br>
@@ -26,13 +26,13 @@ comments: true
 
 <br>
 
-🤔 <strong>architecture 목표</strong>
+<h2><strong>architecture 목표</strong></h2>
 <br>
 1. 시스템의 전체적인 최적화
 
 <br>
 
-🤔 <strong>architecture 설계 과정</strong>
+<h2><strong>architecture 설계 과정</strong></h2>
 <br>
 1. 설계 목표 설정
 <br>
@@ -123,7 +123,7 @@ comments: true
 
 <br>
 
-🤔 <strong>architecture 패턴?</strong>
+<h2><strong>architecture 패턴?</strong></h2>
 <br>
 1. 다양한 상황에서 아키텍처 설계 시 공통적인 발생 문제들을 해결하기 위해 일반화된 솔루션 (해결책)
 <br>
@@ -136,7 +136,7 @@ comments: true
 
 <br>
 
-🤔 <strong>architecture 패턴의 장점?</strong>
+<h2><strong>architecture 패턴의 장점?</strong></h2>
 <br>
 1. 시행 착오를 줄여 개발 시간 단축
 <br>
@@ -149,7 +149,7 @@ comments: true
 
 <br>
 
-🤔 <strong>architecture 패턴의 종류?</strong>
+<h2><strong>architecture 패턴의 종류?</strong></h2>
 <br>
 1. 레이어 패턴
 <br>
